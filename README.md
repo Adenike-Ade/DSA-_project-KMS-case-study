@@ -53,4 +53,6 @@ Case Scenario II: Customer Profitability & Operational Insights
 
 ## SQL QUERIES AND OUTPUTS
 ---
+![image](https://github.com/user-attachments/assets/f93d27b0-c326-4c17-b1f0-82e5e1477955)
+
 
