@@ -223,5 +223,9 @@ QUESTION 4 BOTTOM 10 CUSTOMERS WITH FEW DETAILS
 QUESTION 4 ADVICE
 	![image](https://github.com/user-attachments/assets/c6bf15a3-b161-44bb-877e-4026f6a82862)
 
+QUESTION 5
+	![image](https://github.com/user-attachments/assets/639fcc0b-fa84-4f7f-9195-c2fc09cbd02c)
+
+
 
 
