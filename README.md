@@ -53,6 +53,11 @@ Case Scenario II: Customer Profitability & Operational Insights
 
 ## SQL QUERIES AND OUTPUTS
 ---
+IMORTED TABLE
 ![image](https://github.com/user-attachments/assets/f93d27b0-c326-4c17-b1f0-82e5e1477955)
+
+1. QUESTION 1
+   ![image](https://github.com/user-attachments/assets/6a4edbf4-1df5-4706-afd4-1274e548a079)
+
 
 
