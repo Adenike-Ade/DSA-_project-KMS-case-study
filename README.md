@@ -14,6 +14,8 @@ The case study featured typical business scenarios, from identifying top custome
 
 ## DATA SOURCE
 ---
+The dataset was provided by the DSA Incubatorhub Program and contains simulated order data (2009–2012) from Kultra Mega Stores (KMS). It includes sales, customers, shipping methods, product categories, regions, and order priorities. The data was shared in Excel format and analyzed using SQL Server for training purposes.
+
 ## TOOLS USED
 - SQL Server Management Studio (SSMS)
 - SQL (Aggregation, Grouping, Subqueries, Joins)
