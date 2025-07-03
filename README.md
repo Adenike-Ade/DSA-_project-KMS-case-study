@@ -53,6 +53,158 @@ Case Scenario II: Customer Profitability & Operational Insights
 
 ## SQL QUERIES AND OUTPUTS
 ---
+```SQL QUERIES
+CREATE DATABASE DSA_CAPSTONE_PROJECT
+SELECT * FROM [dbo].[KSA SQL CASE STUDY]
+
+--QUESTION 1 product category with highest sales--
+
+SELECT PRODUCT_CATEGORY, SUM(SALES) AS totalsales
+from [dbo].[KSA SQL CASE STUDY]
+group by Product_CATEGORY
+Order by totalsales desc
+
+-- QUESTION 2 top 3 and bottom 3 regions by sales
+
+--top 3
+select top 3 region,
+SUM(sales) AS TOTALSALES
+FROM[dbo].[KSA SQL CASE STUDY]
+group by Region
+ORDER BY TOTALSALES DESC;
+
+select top 3 region,
+SUM(sales) AS TOTALSALES
+FROM[dbo].[KSA SQL CASE STUDY]
+group by Region
+ORDER BY TOTALSALES asc;
+
+
+--QUESTION 3 (total sales of appliances in ontario)--
+
+SELECT region, sum(sales) as [total sals]
+from [dbo].[KSA SQL CASE STUDY]
+where Product_sub_Category = 'appliances' 
+and region = 'ontario'
+group by region
+
+---QUESTION 4 (Advice to the managment of KMS to increase revenue of the bottom 10).
+
+	 select top 10 
+	customer_name, count(order_id) as totalorders, sum(sales) as totalsales,
+	(select max(customer_segment) from [dbo].[KSA SQL CASE STUDY]) as SegDetails,
+	(select max(region) from [dbo].[KSA SQL CASE STUDY]) as RegDetails
+	from [dbo].[KSA SQL CASE STUDY]
+	group by customer_name
+	order by totalsales asc;
+
+--FROM THE ABOVE QUERY BOTTOM 10, THE ADVICES BELOW ARE WRITTEN IN QUERIES TO GET IT IN TABULAR FORM.
+
+SELECT 
+'Advice for Bottom 10 Customers' AS Advice,
+'1. Obtain Customer information' AS Strategic_Point,
+'get information of the customers, reach out to them and know the cause for their poor purchase' AS Description
+UNION ALL
+SELECT
+'Advice for Bottom 10 Customers' AS Advice,
+'2. Customer Feedback' AS Strategic_Point,
+'Collect feedback from customers to understand their needs and preferences' AS Description
+UNION ALL
+SELECT
+'Advice for Bottom 10 Customers' AS advice,
+'3. Product Improvement' AS Strategic_Point,
+'provide and improve products based on preferences and needs from customers feedback [if need be]' AS description
+UNION ALL
+SELECT
+'Advice for Bottom 10 Customers' AS Advice,
+'4. Improve Company-customer Relationship (customer care)' AS Strategic_Point,
+'Provide a platform to build loyalty by providing or improving [an already existing] customer care service' AS Description
+UNION ALL
+SELECT
+'Advice for Bottom 10 Customers' AS Advice,
+'5.Company Feedbacks to Customers' AS Strategic_Point,
+'Get details of customers and follow-up products bought to boost customer confidence' As Description
+
+----QUESTION 5 (WHICH SHIPPING METHOD INCURRED THE MOST SHIPPING COST)
+
+SELECT TOP 3 Ship_mode,
+sum(Shipping_Cost) as [totalshipping cost]
+from [dbo].[KSA SQL CASE STUDY]
+group by ship_mode
+order by [totalshipping Cost] desc;
+
+--QUESTION 6 (who is the most valuable customer, what product or service do they purchase)
+
+ select top 3 
+	customer_name, Product_Sub_Category, product_name,
+	sum(sales) as totalsales
+	from [dbo].[KSA SQL CASE STUDY]
+	 group by customer_name, Product_Sub_Category, product_name
+	 order by totalsales desc;
+
+---QUESTION 7 (small business owners with the highest sales)
+
+select top 3 
+	customer_name, customer_segment,
+	sum(sales) as totalsales
+	from [dbo].[KSA SQL CASE STUDY]
+	where Customer_Segment = 'small business'
+	 group by customer_name, customer_segment
+	 order by totalsales desc;
+
+--QUESTION 8 (CORPORATE CUSTOMER WITH MOST ORDERS 2009 -2012)
+
+SELECT TOP 10
+	CUSTOMER_NAME, CUSTOMER_SEGMENT, ORDER_DATE, 
+	COUNT(DISTINCT ORDER_ID) AS TOTALORDERS
+	FROM [dbo].[KSA SQL CASE STUDY]
+	WHERE CUSTOMER_SEGMENT = 'CORPORATE'
+	AND ORDER_DATE BETWEEN '2009-01-01' AND '2021-12-31'
+	GROUP BY CUSTOMER_NAME, CUSTOMER_SEGMENT, ORDER_DATE
+	ORDER BY TOTALORDERS DESC;
+
+	---QUESTION 9 CONSUMER CUSTOMER WITH THE HIGHEST PROFIT)
+
+SELECT TOP 1
+	CUSTOMER_NAME, CUSTOMER_SEGMENT, 
+	SUM(PROFIT) AS TOTALPROFITS
+	FROM [dbo].[KSA SQL CASE STUDY]
+	WHERE CUSTOMER_SEGMENT = 'CONSUMER'
+	GROUP BY CUSTOMER_NAME, CUSTOMER_SEGMENT
+	ORDER BY TOTALPROFITS DESC;
+
+	----QUESTION 10 (customer who returned items and the segment they belonged to).
+
+select  DISTINCT [dbo].[KSA SQL CASE STUDY].Order_ID, 	
+			 Customer_Name,	
+			 Customer_Segment	
+			Product_Category, 	
+			[dbo].[Order_Status_302963135].[Status]
+from [dbo].[KSA SQL CASE STUDY]
+inner join [dbo].[Order_Status_302963135]
+on [dbo].[Order_Status_302963135].Order_ID =[dbo].[KSA SQL CASE STUDY].Order_ID
+
+SELECT * FROM[dbo].[Order_Status_302963135]
+
+
+QUESTION 11 
+
+SELECT order_priority, ship_mode,
+		count(Order_ID) as TotalOrder,
+		round(sum(sales - profit),2) as [Estimated shipping Cost],
+		avg(datediff(day,[order_date],[ship_date])) as avgshipdays
+from [dbo].[KSA SQL CASE STUDY]
+group by  order_priority, ship_mode
+order by   order_priority, ship_mode desc;
+
+SELECT order_priority, ship_mode,
+		count(distinct Order_ID) as TotalOrder,
+		round(sum(sales - profit),2) as [Estimated shipping Cost],
+		avg(datediff(day,[order_date],[ship_date])) as avgshipdays
+from [dbo].[KSA SQL CASE STUDY]
+group by  order_priority, ship_mode
+order by   order_priority, ship_mode desc;
+```
 IMORTED TABLE
 ![image](https://github.com/user-attachments/assets/f93d27b0-c326-4c17-b1f0-82e5e1477955)
 
