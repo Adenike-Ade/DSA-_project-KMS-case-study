@@ -199,7 +199,7 @@ order by   order_priority, ship_mode desc;
 
 SELECT order_priority, ship_mode,
 		count(distinct Order_ID) as TotalOrder,
-		round(sum(sales - profit),2) as [Estimated shipping Cost],
+		SUM (Shipping_cost) as [Estimated shipping Cost],
 		avg(datediff(day,[order_date],[ship_date])) as avgshipdays
 from [dbo].[KSA SQL CASE STUDY]
 group by  order_priority, ship_mode
