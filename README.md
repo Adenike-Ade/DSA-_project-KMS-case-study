@@ -206,7 +206,7 @@ group by  order_priority, ship_mode
 order by   order_priority, ship_mode desc;
 ```
 IMORTED TABLE
-![image](https://github.com/user-attachments/assets/f93d27b0-c326-4c17-b1f0-82e5e1477955)
+   ![image](https://github.com/user-attachments/assets/f93d27b0-c326-4c17-b1f0-82e5e1477955)
 
 QUESTION 1
    ![image](https://github.com/user-attachments/assets/6a4edbf4-1df5-4706-afd4-1274e548a079)
@@ -218,13 +218,17 @@ QUESTION 3
    ![image](https://github.com/user-attachments/assets/b465c451-c272-4b84-ab62-3ca9dbc99c5d)
 
 QUESTION 4 BOTTOM 10 CUSTOMERS WITH FEW DETAILS
-	![image](https://github.com/user-attachments/assets/3f0de0d4-4b45-497c-80b1-ab6c1b3960a4)
+   ![image](https://github.com/user-attachments/assets/3f0de0d4-4b45-497c-80b1-ab6c1b3960a4)
  
 QUESTION 4 ADVICE
-	![image](https://github.com/user-attachments/assets/c6bf15a3-b161-44bb-877e-4026f6a82862)
+   ![image](https://github.com/user-attachments/assets/c6bf15a3-b161-44bb-877e-4026f6a82862)
 
 QUESTION 5
-	![image](https://github.com/user-attachments/assets/639fcc0b-fa84-4f7f-9195-c2fc09cbd02c)
+   ![image](https://github.com/user-attachments/assets/639fcc0b-fa84-4f7f-9195-c2fc09cbd02c)
+
+QUESTION 6
+  ![image](https://github.com/user-attachments/assets/b222c7f8-8233-49e7-a322-6a3b6d40c6c9)
+
 
 
 
