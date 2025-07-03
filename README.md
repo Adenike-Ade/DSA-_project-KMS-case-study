@@ -62,6 +62,9 @@ QUESTION 1
 QUESTION 2
    ![image](https://github.com/user-attachments/assets/46b78639-872b-4974-bdbb-1ba11e66b0d1)
 
+QUESTION 3
+   ![image](https://github.com/user-attachments/assets/b465c451-c272-4b84-ab62-3ca9dbc99c5d)
+
 
 
 
