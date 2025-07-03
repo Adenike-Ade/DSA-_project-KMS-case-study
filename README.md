@@ -217,6 +217,8 @@ QUESTION 2
 QUESTION 3
    ![image](https://github.com/user-attachments/assets/b465c451-c272-4b84-ab62-3ca9dbc99c5d)
 
+QUESTION 4 ADVICE
+	![image](https://github.com/user-attachments/assets/c6bf15a3-b161-44bb-877e-4026f6a82862)
 
 
 
