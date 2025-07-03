@@ -24,8 +24,18 @@ The dataset was provided by the DSA Incubatorhub Program and contains simulated 
 ---
 ## DATA CLEANING AND PREPARATION 
 ---
+- The dataset was first reviewed and cleaned in Excel, where duplicate records were checked and none found, the file was saved to CSV UTF-8 format.
+
+- A new database was created in SQL Server Management Studio (SSMS) using SQL queries, after which the cleaned Excel file was imported.
+
+- During the import process:
+Appropriate data types were assigned to columns as needed.
+NULL values were permitted for three specific columns to preserve data integrity and flexibility during querying.
+
 ## EXPLORATORY DATA ANALYSIS 
 ---
+The Kultra Mega Stores Inventory Dataset was explored (Structured Query Language) to answer and draw insights from some questions such as:
+
 Case Scenario I: Sales & Regional Performance
 - Which product category had the highest sales?
 - What are the top 3 and bottom 3 regions by total sales?
