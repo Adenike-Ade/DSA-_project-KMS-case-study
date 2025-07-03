@@ -235,5 +235,7 @@ OUTPUT FOR QUESTION 7 CODE
 OUTPUT FOR QUESTION 8
   ![image](https://github.com/user-attachments/assets/976950f1-cc31-4e17-8957-4c6a2880c1f2)
 
+OUTPUT FOR QUESTION 9
+  ![image](https://github.com/user-attachments/assets/c951f2be-2f25-451d-845c-7ed7432ff652)
 
 
