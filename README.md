@@ -204,6 +204,8 @@ SELECT order_priority, ship_mode,
 from [dbo].[KSA SQL CASE STUDY]
 group by  order_priority, ship_mode
 order by   order_priority, ship_mode desc;
+
+--NOTE; THE QUERY WRITTEN WAS DONE USING THE SHIP_COST INSTEAD OF SALES - PROFIT AS THE LATTER WILL ADD OTHER EXPENDITURES AND NOT ONLY SHIP_COSTS
 ```
 IMORTED TABLE
    ![image](https://github.com/user-attachments/assets/f93d27b0-c326-4c17-b1f0-82e5e1477955)
@@ -240,5 +242,9 @@ OUTPUT FOR QUESTION 9
 
 OUTPUT FOR QUESTION 10
   ![image](https://github.com/user-attachments/assets/5b2e5da0-c65d-4b4c-8d72-63edf517c67f)
+
+OUTPUT FOR QUESTION 11
+  ![image](https://github.com/user-attachments/assets/d2f3f8ab-05c4-43b4-80b8-578b6063ac76)
+
 
 
