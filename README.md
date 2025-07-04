@@ -294,7 +294,7 @@ All three of them bought the same product ( Polycom view Station "ISON")
 
 8. Adam Hart is the corporate customer with the most orders between 2009 to 2012, placing a total order of 27.
 
-9. The top consumer customer is Emily phan
+9. The consumer customer with tge highest profit is Emily phan having a profit of 34,005.439
 
 10. A whooping 573 customers returned purchased items, below are the names of 10 of them:
     - Tamara Dehlen
