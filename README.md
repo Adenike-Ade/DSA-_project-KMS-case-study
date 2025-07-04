@@ -233,7 +233,7 @@ OUTPUT FOR QUESTION 6
   ![image](https://github.com/user-attachments/assets/b222c7f8-8233-49e7-a322-6a3b6d40c6c9)
 
 OUTPUT FOR QUESTION 7 CODE
-  ![image](https://github.com/user-attachments/assets/ae79afb7-8b8a-40ca-bd0c-dc066539b0af)
+ ![image](https://github.com/user-attachments/assets/dc7d044b-2262-40b1-9e29-033064850415)
 
 OUTPUT FOR QUESTION 8
   ![image](https://github.com/user-attachments/assets/976950f1-cc31-4e17-8957-4c6a2880c1f2)
@@ -246,6 +246,9 @@ OUTPUT FOR QUESTION 10
 
 OUTPUT FOR QUESTION 11
   ![image](https://github.com/user-attachments/assets/d2f3f8ab-05c4-43b4-80b8-578b6063ac76)
+
+INSIGHTS AND RECOMMENDATIONS
+---
 
 ## ABOUT ME
 ---
