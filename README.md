@@ -241,7 +241,7 @@ OUTPUT FOR QUESTION 9
   ![image](https://github.com/user-attachments/assets/c951f2be-2f25-451d-845c-7ed7432ff652)
 
 OUTPUT FOR QUESTION 10
-  ![image](https://github.com/user-attachments/assets/5b2e5da0-c65d-4b4c-8d72-63edf517c67f)
+  ![image](https://github.com/user-attachments/assets/f40c0fa3-9ea8-47b8-a915-364ebd9ffdc8)
 
 OUTPUT FOR QUESTION 11
   ![image](https://github.com/user-attachments/assets/d2f3f8ab-05c4-43b4-80b8-578b6063ac76)
