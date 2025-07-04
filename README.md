@@ -187,7 +187,7 @@ on [dbo].[Order_Status_302963135].Order_ID =[dbo].[KSA SQL CASE STUDY].Order_ID
 SELECT * FROM[dbo].[Order_Status_302963135]
 
 
-QUESTION 11 
+---QUESTION 11 
 
 SELECT order_priority, ship_mode,
 		count(Order_ID) as TotalOrder,
