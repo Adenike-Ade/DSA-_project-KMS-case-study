@@ -247,8 +247,68 @@ OUTPUT FOR QUESTION 10
 OUTPUT FOR QUESTION 11
   ![image](https://github.com/user-attachments/assets/d2f3f8ab-05c4-43b4-80b8-578b6063ac76)
 
-INSIGHTS AND RECOMMENDATIONS
+## INSIGHTS AND RECOMMENDATIONS
 ---
+From the analysis done on the Kultra Mega Stores dataset, The following interpretations were drawn:
+
+1. The Top products category is Technology with 5,984,248.491
+   
+2. The Top 3 regions by sales are West, Ontario, and Prarie with total sales of 3,597,549.403, 3,063,212.596, and 2,837,304.602 respectively. The bottom 3 Regions are Yukon, Northwest Territories, and Nunavut, with total sales of 975,867.393, 800,847.351, and 116,376.47 implying that Nanuvut is at the very bottom having the least total sales.
+
+3. The total sales for appliances in Ontario is 202,346.839.
+
+4. The Bottom 10 customers by sales are;
+   ◇ Jeremy Farry
+   ◇ Natalie Dechemey
+   ◇ Nicole Fjeld
+   ◇ Katrina Edelman
+   ◇ Dorothy Disckson
+   ◇ Christine Kargatis
+   ◇ Eric Murdock
+   ◇ Chris Mcafee
+   ◇ Rick Huthwaite
+   ◇ Mark Hamilton
+   
+Advices to improve the revenue of the Bottom 10 Customers
+-  Obtain Customer information:
+comapny shoul get informations about the above 10 customers, reach out to them and know the cause for their poor purchase
+- Customer Feedback:
+Managment should encourage and collect feedback from customers to understand their needs and preferences
+- Product Improvement:
+Management should provide and improve products based on preferences and needs from customers feedback (if need be).
+- Improve Company-customer Relationship (customer care):
+Company should provide a platform to build loyalty by providing or improving (an already existing) customer care service
+- Company Feedbacks to Customers:
+Managementshould create a follow up team to follow products bought to boost customer confidence.
+The above advices can also be implemented for other customers.
+
+5. The Ship-mode with the most incurred cost is Delivery Truck with a total cost of 51,971.939
+
+6. The most valuable customers are
+   1. Emily Phan
+   2. Jasper Cacioppo
+   3. Craigo Carreria
+All three of them bought the same product ( Polycom view Station "ISON")
+
+7. The small Business Customer who with the highest sales is Dennis Kane with a total sales of 75,967.592
+
+8. Adam Hart is the corporate customer with the most orders between 2009 to 2012, placing a total order of 27.
+
+9. The top consumer customer is Emily phan
+
+10. A whooping 573 customers returned purchased items, below are the names of 10 of them:
+    - Tamara Dehlen
+    - Jonathan Dohety
+    - Michael Dominquez
+    - Anne Pryor
+    - Ern Creighton
+    - Frank Gastineau
+    - Cari Sayre
+    - Sheri Gordon
+    - Dave Hallsten
+    - Dorothy Badders
+
+11. 
 
 ## ABOUT ME
 ---
