@@ -309,7 +309,7 @@ All three of them bought the same product ( Polycom view Station "ISON")
     - Dorothy Badders
 
 11. From the analysis, in terms of high and critical priority orders;
-- The company spent approximately on the ship mode(Express air) used since the customers need their purchase critical though the cost seems economical compared to the Delivery truck from our dataset.
+- The company spent appropriately on the ship mode(Express air) used since the customers need their purchase critical though the cost seems economical compared to the Delivery truck from our dataset.
 - However, the company didn't spend approximately using Express Air for low and medium ship mode, the ship mode used should focus on Delivery Truck.
 - The company should check shipping policies and stick to Express Air for Critical priority orders, Regular Air for High priority orders, The company should also use Delivery truck for priorities that are medium, low and not specified.
 
